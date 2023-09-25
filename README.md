@@ -1,6 +1,6 @@
-# AstroNvim User Configuration Example
+# AstroNvim Configuration 
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+Configuration for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
 
@@ -16,17 +16,10 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 ```shell
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
-
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/d1en25/astronvim-config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
@@ -34,3 +27,20 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+### Plugins
+
+```shell
+astrocommunity.colorscheme.catppuccin
+astrocommunity/bars-and-lines/lualine-nvim
+astrocommunity/bars-and-lines/heirline-vscode-winbar
+astrocommunity/scrolling/nvim-scrollbar
+astrocommunity/pack/typescript
+astrocommunity/pack/markdown
+astrocommunity/pack/json
+astrocommunity/pack/bash
+astrocommunity/pack/html-css
+```
+
+### Theme
+
+[Cattpuccin Mocha](https://github.com/catppuccin/nvim)

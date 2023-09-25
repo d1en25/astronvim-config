@@ -9,4 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "petertriho/nvim-scrollbar",
+    config = function()
+      local colors = require("catppuccin.palettes").get_palette "mocha"
+
+      require("scrollbar").setup {
+        handle = {
+          color = colors.surface0,
+        },
+      }
+    end,
+  },
 }
